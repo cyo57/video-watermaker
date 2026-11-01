@@ -2,3 +2,8 @@ output/
 .venv/
 *.pyc
 __pycache__/
+.pytest_cache/
+.ruff_cache/
+*.log
+*.log.*
+.video-watermaker/

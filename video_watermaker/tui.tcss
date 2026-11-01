@@ -1,0 +1,32 @@
+Screen { background: $surface; }
+Header { background: $primary-darken-2; }
+#status { height: 2; padding: 0 1; color: $text; background: $boost; }
+#counts { height: 1; padding: 0 1; color: $text-muted; }
+#overall { width: 100%; height: 1; padding: 0 1; }
+#overall Bar { width: 1fr; }
+TabbedContent { height: 1fr; }
+TabPane { padding: 0 1; }
+#form { padding: 0 1; }
+.hint { height: auto; color: $text-muted; margin: 0 0 1 0; }
+.field { height: 3; width: 100%; }
+.field Label { width: 16; padding: 1 0; }
+.field Input, .field Select { width: 1fr; }
+#extras { height: 3; }
+#extras Checkbox { width: 1fr; }
+Collapsible { padding: 0; margin-bottom: 1; }
+#model-status { height: auto; margin-bottom: 1; color: $accent; }
+#filters { height: 3; }
+#filter { width: 18; }
+#search { width: 1fr; }
+#active { height: 2; color: $accent; }
+#tasks { height: 1fr; min-height: 3; }
+#pagination { height: 3; align: center middle; }
+#pagination Button { min-width: 10; }
+#page { width: 1fr; text-align: center; padding-top: 1; }
+#details-scroll { height: 5; border-top: solid $primary-darken-2; }
+#details { height: auto; }
+#log { height: 1fr; border: solid $primary-darken-2; }
+#actions { height: 3; padding: 0 1; align: center middle; }
+#actions Button { width: 1fr; min-width: 10; margin: 0 1; }
+Screen.compact #status, Screen.compact #active { height: 1; }
+Screen.compact #details-scroll { height: 3; }
